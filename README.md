@@ -1,7 +1,18 @@
 # wp-plugin-installer
 Experimental package for installing WordPress plug-ins with Node.js
 
+## Installing
+Using npm:
+```
+$ npm install --save wp-plugin-installer
+```
+
 ## Example
+### Loading
+```
+const installer = require('wp-plugin-installer');
+```
+
 ### Logging in
 Before you can install plug-ins you have to authenticate with the website. This is done using the async `login` function as such:
 ```
