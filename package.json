@@ -1,6 +1,6 @@
 {
   "name": "wp-plugin-installer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Experimental package for installing WordPress plug-ins with Node.js",
   "main": "index.js",
   "scripts": {
