@@ -9,13 +9,13 @@ $ npm install --save wp-plugin-installer
 
 ## Example
 ### Loading
-```
+```javascript
 const installer = require('wp-plugin-installer');
 ```
 
 ### Logging in
 Before you can install plug-ins you have to authenticate with the website. This is done using the async `login` function as such:
-```
+```javascript
 await installer.login({
   url: 'https://wordpress.local',
   user: 'username/email',
@@ -25,7 +25,7 @@ await installer.login({
 
 ### Installing plug-ins
 After authenticating you can install plug-ins with the async `install` function as such:
-```
+```javascript
 const pluginFile = fs.createReadStream('./plugin.zip');
 await installer.install(pluginFile);
 ```
