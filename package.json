@@ -8,6 +8,10 @@
   },
   "author": "Roy Koeleman <roy.koeleman@webtify.nl> (https://webtify.nl)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoyWebtify/wp-plugin-installer.git"
+  },
   "dependencies": {
     "axios": "^0.26.0",
     "form-data": "^4.0.0",
